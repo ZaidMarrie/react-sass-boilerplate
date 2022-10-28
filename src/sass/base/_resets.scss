@@ -1,0 +1,65 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+	font: inherit;
+	color: inherit;
+	display: inline-block;
+}
+
+textarea {
+	overflow: auto;
+}
+
+button {
+	cursor: pointer;
+	border: 0;
+	background: transparent;
+}
+
+a {
+	text-decoration: none;
+}
+
+// For screen reader text
+.sr-only {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+
+// remove animations for people who've turned them off
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

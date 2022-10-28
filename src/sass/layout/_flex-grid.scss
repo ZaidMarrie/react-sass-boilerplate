@@ -1,0 +1,69 @@
+// ------- Flexbox & Grid ------- //
+.flex,
+.grid {
+	gap: var(--gap, 1rem);
+}
+
+.flex {
+	display: flex;
+
+	&-row {
+		flex-direction: row;
+	}
+	&-column {
+		flex-direction: column;
+	}
+	&-wrap {
+		flex-wrap: wrap;
+	}
+}
+
+.grid {
+	display: grid;
+}
+
+// ------- Alignment ------- //
+.justify {
+	&-start {
+		justify-content: start;
+	}
+
+	&-center {
+		justify-content: center;
+	}
+
+	&-end {
+		justify-content: end;
+	}
+
+	&-between {
+		justify-content: space-between;
+	}
+
+	// Grid or Flex Item properties
+	&-self-start {
+		justify-self: start;
+	}
+}
+
+.items {
+	&-start {
+		align-items: start;
+	}
+	&-center {
+		align-items: center;
+	}
+	&-end {
+		align-items: end;
+	}
+
+	// Grid or Flex Item properties
+	&-self-end {
+		align-self: end;
+	}
+	&-self-center {
+		align-self: center;
+	}
+}
+
+// ------- Gap ------- //

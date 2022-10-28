@@ -1,0 +1,30 @@
+:root {
+	// ------- Opacity ------- //
+	--alpha-bg: 0.1;
+
+	// ------- Transitions & Animations ------- //
+	--duration-links: 175ms;
+	--duration-inputs: 125ms;
+	--duration-buttons: 200ms;
+	--duration-navigation: 350ms;
+
+	// ------- Timing functions ------- //
+	--tf-theme: cubic-bezier(0.165, 0.84, 0.44, 1);
+	--tf-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	--tf-buttons: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+	--tf-inputs: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+	// ------- Filter ------- //
+	--filter-blur: 8px;
+
+	// ------- Box Shadow ------- //
+	--bs-300: 0px 1px 2px hsl(var(--clr-neutral-900) / 0.05);
+	--bs-400: 0px 1px 2px -1px hsl(var(--clr-neutral-900) / 0.1),
+		0px 1px 3px hsl(var(--clr-neutral-900) / 0.1);
+	--bs-500: 0px 2px 4px -2px hsl(var(--clr-neutral-900) / 0.1),
+		0px 4px 6px -1px hsl(var(--clr-neutral-900) / 0.1);
+	--bs-600: 0px 4px 6px -4px hsl(var(--clr-neutral-900) / 0.1),
+		0px 0px 15px -3px hsl(var(--clr-neutral-900) / 0.1);
+	--bs-700: 0px 8px 10px -6px hsl(var(--clr-neutral-900) / 0.1),
+		0px 20px 25px -5px hsl(var(--clr-neutral-900) / 0.1);
+}

@@ -1,0 +1,49 @@
+// ================================== //
+// Custom Properties (Variables)      //
+// ================================== //
+:root {
+	// Primary button
+	--bs-btn: 0px 2px 4px -2px hsl(var(--clr-accent) / 0.1),
+		0px 4px 6px -1px hsl(var(--clr-accent) / 0.1);
+	--bs-btn-hover: 0px 8px 10px -6px hsl(var(--clr-accent) / 0.1),
+		0px 20px 25px -5px hsl(var(--clr-accent) / 0.1);
+
+	// Secondary button
+	--bs-btn-ghost: 0px 2px 4px -2px hsl(var(--clr-text) / 0.1),
+		0px 4px 6px -1px hsl(var(--clr-text) / 0.1);
+	--bs-btn-ghost-hover: 0px 8px 10px -6px hsl(var(--clr-text) / 0.1),
+		0px 20px 25px -5px hsl(var(--clr-text) / 0.1);
+
+	// Cards
+	--bs-cards: inset 1px 1px 3px hsl(var(--clr-accent) / 0.05),
+		-1px 1px 3px hsl(var(--clr-accent) / 0.05), 0 2px 8px hsl(var(--clr-accent) / 0.1),
+		0 6px 12px hsl(var(--clr-accent) / 0.1);
+
+	// ------- Gradients & Backgrounds ------- //
+
+	--gradient-header: radial-gradient(
+			at 0% 99%,
+			hsla(204, 100%, 49%, var(--alpha)) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 83% 13%, hsla(283, 100%, 40%, var(--alpha)) 0px, transparent 50%),
+		radial-gradient(at 93% 35%, hsla(334, 84%, 52%, var(--alpha)) 0px, transparent 50%);
+	--gradient-left-blob: radial-gradient(
+			at 18% 48%,
+			hsla(247, 78%, 54%, var(--alpha)) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 35% 60%, hsla(334, 84%, 52%, var(--alpha)) 0px, transparent 50%);
+	--gradient-right-blob: radial-gradient(
+			at 35% 60%,
+			hsla(247, 78%, 54%, var(--alpha)) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 18% 48%, hsla(334, 84%, 52%, var(--alpha)) 0px, transparent 50%);
+
+	--gradient-btn: linear-gradient(
+		to bottom right,
+		hsl(var(--clr-btn-stroke-1)) 55%,
+		hsl(var(--clr-btn-stroke-2))
+	);
+}
