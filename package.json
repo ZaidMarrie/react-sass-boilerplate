@@ -4,7 +4,6 @@
 	"private": false,
 	"type": "module",
 	"description": "This is a React project setup using Vite & the flexibility of sass.",
-	"main": "main.jsx",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
