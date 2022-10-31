@@ -1,3 +1,7 @@
+// ================================== //
+// Effects Custom Properties          //
+// ================================== //
+
 :root {
 	// ------- Opacity ------- //
 	--alpha-bg: 0.1;
@@ -6,10 +10,9 @@
 	--duration-links: 175ms;
 	--duration-inputs: 125ms;
 	--duration-buttons: 200ms;
-	--duration-navigation: 350ms;
+	--duration-navigation: 250ms;
 
 	// ------- Timing functions ------- //
-	--tf-theme: cubic-bezier(0.165, 0.84, 0.44, 1);
 	--tf-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	--tf-buttons: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 	--tf-inputs: cubic-bezier(0.39, 0.575, 0.565, 1);
