@@ -1,7 +1,7 @@
 {
 	"name": "react-sass-boilerplate",
 	"version": "1.0.0",
-	"private": false,
+	"private": true,
 	"type": "module",
 	"description": "This is a React project setup using Vite & the flexibility of sass.",
 	"scripts": {
@@ -22,11 +22,8 @@
 	},
 	"keywords": [
 		"boilerplate",
-		"setup",
-		"file-structure",
-		"design-system",
-		"react",
 		"vite",
+		"react",
 		"sass"
 	],
 	"author": "Zaid Marrie",
